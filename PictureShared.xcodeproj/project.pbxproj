@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DEE4166C988894B7F826AF3 /* libPods-PictureShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F505569BA1EA2F8EBAAC9CDB /* libPods-PictureShared.a */; };
+		559C09741B69C586007BD4B4 /* SFBasicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C09621B69C586007BD4B4 /* SFBasicImage.m */; };
+		559C09751B69C586007BD4B4 /* SFBasicImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C09641B69C586007BD4B4 /* SFBasicImageSource.m */; };
+		559C09761B69C586007BD4B4 /* SFImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C09671B69C586007BD4B4 /* SFImageLoader.m */; };
+		559C09771B69C586007BD4B4 /* SFImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C09691B69C586007BD4B4 /* SFImageScrollView.m */; };
+		559C09781B69C586007BD4B4 /* SFImageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C096C1B69C586007BD4B4 /* SFImageTitleView.m */; };
+		559C09791B69C586007BD4B4 /* SFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C096E1B69C586007BD4B4 /* SFImageView.m */; };
+		559C097A1B69C586007BD4B4 /* SFImageViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C09711B69C586007BD4B4 /* SFImageViewerViewController.m */; };
+		559C097B1B69C586007BD4B4 /* SFPlaceholderImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C09731B69C586007BD4B4 /* SFPlaceholderImages.m */; };
+		559C09D41B69CC8A007BD4B4 /* SFResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C09D31B69CC8A007BD4B4 /* SFResourceManager.m */; };
+		559C09D81B69CDAB007BD4B4 /* UIButton+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C09D71B69CDAB007BD4B4 /* UIButton+block.m */; };
+		559C0A141B6A217A007BD4B4 /* SFUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C0A131B6A217A007BD4B4 /* SFUtil.m */; };
+		559C0A1B1B6A2D06007BD4B4 /* seaphy_common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 559C0A1A1B6A2D06007BD4B4 /* seaphy_common.bundle */; };
+		559C0A2A1B6B5A66007BD4B4 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 559C0A221B6B5A66007BD4B4 /* MJRefresh.bundle */; };
+		559C0A2B1B6B5A66007BD4B4 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C0A251B6B5A66007BD4B4 /* MJRefreshBaseView.m */; };
+		559C0A2C1B6B5A66007BD4B4 /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C0A271B6B5A66007BD4B4 /* MJRefreshFooterView.m */; };
+		559C0A2D1B6B5A66007BD4B4 /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C0A291B6B5A66007BD4B4 /* MJRefreshHeaderView.m */; };
+		55C1E4B31B65D58A001DE2BF /* libSeaphyFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1E4B11B65D58A001DE2BF /* libSeaphyFramework.a */; };
+		55D847D21B5752B500677BCD /* PSPictureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D847D11B5752B500677BCD /* PSPictureListViewController.m */; };
+		55F18D371B5600E300686701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F18D361B5600E300686701 /* main.m */; };
+		55F18D3A1B5600E300686701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F18D391B5600E300686701 /* AppDelegate.m */; };
+		55F18D421B5600E300686701 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F18D411B5600E300686701 /* Images.xcassets */; };
+		55F18D451B5600E300686701 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F18D431B5600E300686701 /* LaunchScreen.xib */; };
+		55F18D511B5600E300686701 /* PictureSharedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F18D501B5600E300686701 /* PictureSharedTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55F18D4B1B5600E300686701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F18D291B5600E300686701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F18D301B5600E300686701;
+			remoteInfo = PictureShared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559C09611B69C586007BD4B4 /* SFBasicImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBasicImage.h; sourceTree = "<group>"; };
+		559C09621B69C586007BD4B4 /* SFBasicImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBasicImage.m; sourceTree = "<group>"; };
+		559C09631B69C586007BD4B4 /* SFBasicImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBasicImageSource.h; sourceTree = "<group>"; };
+		559C09641B69C586007BD4B4 /* SFBasicImageSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBasicImageSource.m; sourceTree = "<group>"; };
+		559C09651B69C586007BD4B4 /* SFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImage.h; sourceTree = "<group>"; };
+		559C09661B69C586007BD4B4 /* SFImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageLoader.h; sourceTree = "<group>"; };
+		559C09671B69C586007BD4B4 /* SFImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageLoader.m; sourceTree = "<group>"; };
+		559C09681B69C586007BD4B4 /* SFImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageScrollView.h; sourceTree = "<group>"; };
+		559C09691B69C586007BD4B4 /* SFImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageScrollView.m; sourceTree = "<group>"; };
+		559C096A1B69C586007BD4B4 /* SFImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageSource.h; sourceTree = "<group>"; };
+		559C096B1B69C586007BD4B4 /* SFImageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageTitleView.h; sourceTree = "<group>"; };
+		559C096C1B69C586007BD4B4 /* SFImageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageTitleView.m; sourceTree = "<group>"; };
+		559C096D1B69C586007BD4B4 /* SFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageView.h; sourceTree = "<group>"; };
+		559C096E1B69C586007BD4B4 /* SFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageView.m; sourceTree = "<group>"; };
+		559C096F1B69C586007BD4B4 /* SFImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageViewer.h; sourceTree = "<group>"; };
+		559C09701B69C586007BD4B4 /* SFImageViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageViewerViewController.h; sourceTree = "<group>"; };
+		559C09711B69C586007BD4B4 /* SFImageViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageViewerViewController.m; sourceTree = "<group>"; };
+		559C09721B69C586007BD4B4 /* SFPlaceholderImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPlaceholderImages.h; sourceTree = "<group>"; };
+		559C09731B69C586007BD4B4 /* SFPlaceholderImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPlaceholderImages.m; sourceTree = "<group>"; };
+		559C09D11B69CC8A007BD4B4 /* PSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDefines.h; sourceTree = "<group>"; };
+		559C09D21B69CC8A007BD4B4 /* SFResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFResourceManager.h; sourceTree = "<group>"; };
+		559C09D31B69CC8A007BD4B4 /* SFResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFResourceManager.m; sourceTree = "<group>"; };
+		559C09D61B69CDAB007BD4B4 /* UIButton+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+block.h"; sourceTree = "<group>"; };
+		559C09D71B69CDAB007BD4B4 /* UIButton+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+block.m"; sourceTree = "<group>"; };
+		559C0A121B6A217A007BD4B4 /* SFUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUtil.h; sourceTree = "<group>"; };
+		559C0A131B6A217A007BD4B4 /* SFUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUtil.m; sourceTree = "<group>"; };
+		559C0A1A1B6A2D06007BD4B4 /* seaphy_common.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = seaphy_common.bundle; sourceTree = "<group>"; };
+		559C0A221B6B5A66007BD4B4 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		559C0A231B6B5A66007BD4B4 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		559C0A241B6B5A66007BD4B4 /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		559C0A251B6B5A66007BD4B4 /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		559C0A261B6B5A66007BD4B4 /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		559C0A271B6B5A66007BD4B4 /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		559C0A281B6B5A66007BD4B4 /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		559C0A291B6B5A66007BD4B4 /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		55C1E4B11B65D58A001DE2BF /* libSeaphyFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSeaphyFramework.a; path = SeaphyFramework/libSeaphyFramework.a; sourceTree = "<group>"; };
+		55C1E4B21B65D58A001DE2BF /* SeaphyFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeaphyFramework.h; path = SeaphyFramework/SeaphyFramework.h; sourceTree = "<group>"; };
+		55D847D01B5752B500677BCD /* PSPictureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPictureListViewController.h; sourceTree = "<group>"; };
+		55D847D11B5752B500677BCD /* PSPictureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPictureListViewController.m; sourceTree = "<group>"; };
+		55F18D311B5600E300686701 /* PictureShared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureShared.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F18D351B5600E300686701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F18D361B5600E300686701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55F18D381B5600E300686701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55F18D391B5600E300686701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55F18D411B5600E300686701 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55F18D441B5600E300686701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55F18D4A1B5600E300686701 /* PictureSharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureSharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F18D4F1B5600E300686701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F18D501B5600E300686701 /* PictureSharedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureSharedTests.m; sourceTree = "<group>"; };
+		7B5B956AEB380C034A0639F4 /* Pods-PictureShared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureShared.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictureShared/Pods-PictureShared.debug.xcconfig"; sourceTree = "<group>"; };
+		F505569BA1EA2F8EBAAC9CDB /* libPods-PictureShared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PictureShared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F909B7CDBD2B7EE9701F10C0 /* Pods-PictureShared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureShared.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictureShared/Pods-PictureShared.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F18D2E1B5600E300686701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C1E4B31B65D58A001DE2BF /* libSeaphyFramework.a in Frameworks */,
+				1DEE4166C988894B7F826AF3 /* libPods-PictureShared.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F18D471B5600E300686701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559C095E1B69C586007BD4B4 /* PSCommon */ = {
+			isa = PBXGroup;
+			children = (
+				559C0A111B6A217A007BD4B4 /* CommonClasses */,
+				559C09D51B69CDAB007BD4B4 /* CommonView */,
+				559C095F1B69C586007BD4B4 /* Components */,
+			);
+			path = PSCommon;
+			sourceTree = "<group>";
+		};
+		559C095F1B69C586007BD4B4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				559C09601B69C586007BD4B4 /* ImageBrowser */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		559C09601B69C586007BD4B4 /* ImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				559C09611B69C586007BD4B4 /* SFBasicImage.h */,
+				559C09621B69C586007BD4B4 /* SFBasicImage.m */,
+				559C09631B69C586007BD4B4 /* SFBasicImageSource.h */,
+				559C09641B69C586007BD4B4 /* SFBasicImageSource.m */,
+				559C09651B69C586007BD4B4 /* SFImage.h */,
+				559C09661B69C586007BD4B4 /* SFImageLoader.h */,
+				559C09671B69C586007BD4B4 /* SFImageLoader.m */,
+				559C09681B69C586007BD4B4 /* SFImageScrollView.h */,
+				559C09691B69C586007BD4B4 /* SFImageScrollView.m */,
+				559C096A1B69C586007BD4B4 /* SFImageSource.h */,
+				559C096B1B69C586007BD4B4 /* SFImageTitleView.h */,
+				559C096C1B69C586007BD4B4 /* SFImageTitleView.m */,
+				559C096D1B69C586007BD4B4 /* SFImageView.h */,
+				559C096E1B69C586007BD4B4 /* SFImageView.m */,
+				559C096F1B69C586007BD4B4 /* SFImageViewer.h */,
+				559C09701B69C586007BD4B4 /* SFImageViewerViewController.h */,
+				559C09711B69C586007BD4B4 /* SFImageViewerViewController.m */,
+				559C09721B69C586007BD4B4 /* SFPlaceholderImages.h */,
+				559C09731B69C586007BD4B4 /* SFPlaceholderImages.m */,
+			);
+			path = ImageBrowser;
+			sourceTree = "<group>";
+		};
+		559C098F1B69CBF5007BD4B4 /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				559C0A211B6B5A66007BD4B4 /* MJRefresh */,
+			);
+			path = Thirdparty;
+			sourceTree = "<group>";
+		};
+		559C09CF1B69CC8A007BD4B4 /* PSBase */ = {
+			isa = PBXGroup;
+			children = (
+				559C09D01B69CC8A007BD4B4 /* BaseClasses */,
+			);
+			path = PSBase;
+			sourceTree = "<group>";
+		};
+		559C09D01B69CC8A007BD4B4 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				559C09D11B69CC8A007BD4B4 /* PSDefines.h */,
+				559C09D21B69CC8A007BD4B4 /* SFResourceManager.h */,
+				559C09D31B69CC8A007BD4B4 /* SFResourceManager.m */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		559C09D51B69CDAB007BD4B4 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				559C09D61B69CDAB007BD4B4 /* UIButton+block.h */,
+				559C09D71B69CDAB007BD4B4 /* UIButton+block.m */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		559C0A111B6A217A007BD4B4 /* CommonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				559C0A121B6A217A007BD4B4 /* SFUtil.h */,
+				559C0A131B6A217A007BD4B4 /* SFUtil.m */,
+			);
+			path = CommonClasses;
+			sourceTree = "<group>";
+		};
+		559C0A151B6A2C71007BD4B4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				559C0A1A1B6A2D06007BD4B4 /* seaphy_common.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		559C0A211B6B5A66007BD4B4 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				559C0A221B6B5A66007BD4B4 /* MJRefresh.bundle */,
+				559C0A231B6B5A66007BD4B4 /* MJRefresh.h */,
+				559C0A241B6B5A66007BD4B4 /* MJRefreshBaseView.h */,
+				559C0A251B6B5A66007BD4B4 /* MJRefreshBaseView.m */,
+				559C0A261B6B5A66007BD4B4 /* MJRefreshFooterView.h */,
+				559C0A271B6B5A66007BD4B4 /* MJRefreshFooterView.m */,
+				559C0A281B6B5A66007BD4B4 /* MJRefreshHeaderView.h */,
+				559C0A291B6B5A66007BD4B4 /* MJRefreshHeaderView.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		55C1E4B01B65D572001DE2BF /* SeaphyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				55C1E4B11B65D58A001DE2BF /* libSeaphyFramework.a */,
+				55C1E4B21B65D58A001DE2BF /* SeaphyFramework.h */,
+			);
+			name = SeaphyFramework;
+			sourceTree = "<group>";
+		};
+		55F18D281B5600E300686701 = {
+			isa = PBXGroup;
+			children = (
+				55F18D331B5600E300686701 /* PictureShared */,
+				55F18D4D1B5600E300686701 /* PictureSharedTests */,
+				55F18D321B5600E300686701 /* Products */,
+				BD82FAE3701D839A543A47F2 /* Pods */,
+				B162A7FF6835FBBE0EA61DD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55F18D321B5600E300686701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F18D311B5600E300686701 /* PictureShared.app */,
+				55F18D4A1B5600E300686701 /* PictureSharedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F18D331B5600E300686701 /* PictureShared */ = {
+			isa = PBXGroup;
+			children = (
+				559C0A151B6A2C71007BD4B4 /* Resource */,
+				559C09CF1B69CC8A007BD4B4 /* PSBase */,
+				559C098F1B69CBF5007BD4B4 /* Thirdparty */,
+				559C095E1B69C586007BD4B4 /* PSCommon */,
+				55C1E4B01B65D572001DE2BF /* SeaphyFramework */,
+				55F18D381B5600E300686701 /* AppDelegate.h */,
+				55F18D391B5600E300686701 /* AppDelegate.m */,
+				55F18D411B5600E300686701 /* Images.xcassets */,
+				55F18D431B5600E300686701 /* LaunchScreen.xib */,
+				55D847D01B5752B500677BCD /* PSPictureListViewController.h */,
+				55D847D11B5752B500677BCD /* PSPictureListViewController.m */,
+				55F18D341B5600E300686701 /* Supporting Files */,
+			);
+			path = PictureShared;
+			sourceTree = "<group>";
+		};
+		55F18D341B5600E300686701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F18D351B5600E300686701 /* Info.plist */,
+				55F18D361B5600E300686701 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55F18D4D1B5600E300686701 /* PictureSharedTests */ = {
+			isa = PBXGroup;
+			children = (
+				55F18D501B5600E300686701 /* PictureSharedTests.m */,
+				55F18D4E1B5600E300686701 /* Supporting Files */,
+			);
+			path = PictureSharedTests;
+			sourceTree = "<group>";
+		};
+		55F18D4E1B5600E300686701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F18D4F1B5600E300686701 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B162A7FF6835FBBE0EA61DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F505569BA1EA2F8EBAAC9CDB /* libPods-PictureShared.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD82FAE3701D839A543A47F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B5B956AEB380C034A0639F4 /* Pods-PictureShared.debug.xcconfig */,
+				F909B7CDBD2B7EE9701F10C0 /* Pods-PictureShared.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F18D301B5600E300686701 /* PictureShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F18D541B5600E300686701 /* Build configuration list for PBXNativeTarget "PictureShared" */;
+			buildPhases = (
+				1CEBC3E831D408118EC6DE70 /* Check Pods Manifest.lock */,
+				55F18D2D1B5600E300686701 /* Sources */,
+				55F18D2E1B5600E300686701 /* Frameworks */,
+				55F18D2F1B5600E300686701 /* Resources */,
+				1B5A643E07589715E5510CF0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureShared;
+			productName = PictureShared;
+			productReference = 55F18D311B5600E300686701 /* PictureShared.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55F18D491B5600E300686701 /* PictureSharedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F18D571B5600E300686701 /* Build configuration list for PBXNativeTarget "PictureSharedTests" */;
+			buildPhases = (
+				55F18D461B5600E300686701 /* Sources */,
+				55F18D471B5600E300686701 /* Frameworks */,
+				55F18D481B5600E300686701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F18D4C1B5600E300686701 /* PBXTargetDependency */,
+			);
+			name = PictureSharedTests;
+			productName = PictureSharedTests;
+			productReference = 55F18D4A1B5600E300686701 /* PictureSharedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F18D291B5600E300686701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = seaphy;
+				TargetAttributes = {
+					55F18D301B5600E300686701 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					55F18D491B5600E300686701 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 55F18D301B5600E300686701;
+					};
+				};
+			};
+			buildConfigurationList = 55F18D2C1B5600E300686701 /* Build configuration list for PBXProject "PictureShared" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F18D281B5600E300686701;
+			productRefGroup = 55F18D321B5600E300686701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F18D301B5600E300686701 /* PictureShared */,
+				55F18D491B5600E300686701 /* PictureSharedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F18D2F1B5600E300686701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F18D451B5600E300686701 /* LaunchScreen.xib in Resources */,
+				559C0A1B1B6A2D06007BD4B4 /* seaphy_common.bundle in Resources */,
+				559C0A2A1B6B5A66007BD4B4 /* MJRefresh.bundle in Resources */,
+				55F18D421B5600E300686701 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F18D481B5600E300686701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5A643E07589715E5510CF0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureShared/Pods-PictureShared-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CEBC3E831D408118EC6DE70 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F18D2D1B5600E300686701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C09D41B69CC8A007BD4B4 /* SFResourceManager.m in Sources */,
+				559C0A2D1B6B5A66007BD4B4 /* MJRefreshHeaderView.m in Sources */,
+				559C097B1B69C586007BD4B4 /* SFPlaceholderImages.m in Sources */,
+				559C097A1B69C586007BD4B4 /* SFImageViewerViewController.m in Sources */,
+				55F18D3A1B5600E300686701 /* AppDelegate.m in Sources */,
+				559C0A2C1B6B5A66007BD4B4 /* MJRefreshFooterView.m in Sources */,
+				55D847D21B5752B500677BCD /* PSPictureListViewController.m in Sources */,
+				559C09791B69C586007BD4B4 /* SFImageView.m in Sources */,
+				559C0A141B6A217A007BD4B4 /* SFUtil.m in Sources */,
+				559C09741B69C586007BD4B4 /* SFBasicImage.m in Sources */,
+				559C09771B69C586007BD4B4 /* SFImageScrollView.m in Sources */,
+				559C0A2B1B6B5A66007BD4B4 /* MJRefreshBaseView.m in Sources */,
+				559C09781B69C586007BD4B4 /* SFImageTitleView.m in Sources */,
+				559C09751B69C586007BD4B4 /* SFBasicImageSource.m in Sources */,
+				559C09D81B69CDAB007BD4B4 /* UIButton+block.m in Sources */,
+				55F18D371B5600E300686701 /* main.m in Sources */,
+				559C09761B69C586007BD4B4 /* SFImageLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F18D461B5600E300686701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F18D511B5600E300686701 /* PictureSharedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55F18D4C1B5600E300686701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F18D301B5600E300686701 /* PictureShared */;
+			targetProxy = 55F18D4B1B5600E300686701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55F18D431B5600E300686701 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F18D441B5600E300686701 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F18D521B5600E300686701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55F18D531B5600E300686701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F18D551B5600E300686701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5B956AEB380C034A0639F4 /* Pods-PictureShared.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = PictureShared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/PictureShared/SeaphyFramework",
+					"$(PROJECT_DIR)/PictureShared/SeaphyFramework",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		55F18D561B5600E300686701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F909B7CDBD2B7EE9701F10C0 /* Pods-PictureShared.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = PictureShared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/PictureShared/SeaphyFramework",
+					"$(PROJECT_DIR)/PictureShared/SeaphyFramework",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		55F18D581B5600E300686701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PictureSharedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureShared.app/PictureShared";
+			};
+			name = Debug;
+		};
+		55F18D591B5600E300686701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PictureSharedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureShared.app/PictureShared";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F18D2C1B5600E300686701 /* Build configuration list for PBXProject "PictureShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F18D521B5600E300686701 /* Debug */,
+				55F18D531B5600E300686701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F18D541B5600E300686701 /* Build configuration list for PBXNativeTarget "PictureShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F18D551B5600E300686701 /* Debug */,
+				55F18D561B5600E300686701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F18D571B5600E300686701 /* Build configuration list for PBXNativeTarget "PictureSharedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F18D581B5600E300686701 /* Debug */,
+				55F18D591B5600E300686701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F18D291B5600E300686701 /* Project object */;
+}
